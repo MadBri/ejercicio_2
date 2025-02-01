@@ -1,4 +1,8 @@
 # ejercicio_2
+
+### main.py
+
+```python
 def calcular_letra_dni(dni):
     letras = "TRWAGMYFPDXBNJZSQVHLCKE"
     return letras[dni % 23]
@@ -8,10 +12,12 @@ if __name__ == "__main__":
     dni = int(input("Introduce el número de DNI: "))
     letra = calcular_letra_dni(dni)
     print(f"La letra del DNI es: {letra}")
+```
 
-###Rama_dni
+### Rama 1: `calculo_dni`
 
-  def calcular_letra_dni(dni):
+```python
+def calcular_letra_dni(dni):
     letras = "TRWAGMYFPDXBNJZSQVHLCKE"
     return letras[dni % 23]
 
@@ -20,15 +26,19 @@ if __name__ == "__main__":
     dni = int(input("Introduce el número de DNI: "))
     letra = calcular_letra_dni(dni)
     print(f"La letra del DNI es: {letra}")
+```
 
-###Rama 2: funcion_dni
+### Rama 2: `funcion_dni`
 
-  def calcular_letra_dni(dni):
+```python
+def calcular_letra_dni(dni):
     letras = "TRWAGMYFPDXBNJZSQVHLCKE"
     return letras[dni % 23]
+```
 
-###Rama 3: main_dni
+### Rama 3: `main_dni`
 
+```python
 if __name__ == "__main__":
     # Solicitar número de DNI al usuario
     dni = int(input("Introduce el número de DNI: "))
@@ -38,4 +48,6 @@ if __name__ == "__main__":
 def calcular_letra_dni(dni):
     letras = "TRWAGMYFPDXBNJZSQVHLCKE"
     return letras[dni % 23]
+```
+
 
